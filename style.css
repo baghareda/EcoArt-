@@ -235,3 +235,58 @@ body{
     padding: 0;
     object-fit: contain;
 }
+
+.Manifest {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #F2FCF4;
+    padding: 50px 30px;
+}
+
+.head {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.head p {
+    padding: 0;
+    color: #414943;
+}
+
+.head h3 {
+    font-size: 32px;
+    color: #14422D;
+    margin: 10px 0;
+}
+
+.manivivant {
+    flex: 1;
+    background-color: #DDEBE0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.number-one {
+    border-radius: 8px;
+    height: 18px;
+    width: 18px;
+    color: #9FCFB2;
+    background-color: #2D5A43;
+}
+
+.number-two {
+    border-radius: 8px;
+    height: 18px;
+    width: 18px;
+    color: white;
+    background-color: #944931;
+}
+
+.number-three {
+    border-radius: 8px;
+    height: 18px;
+    width: 18px;
+    color: #9FCFB2;
+    background-color: #235B3E;
+}
