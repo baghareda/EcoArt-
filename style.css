@@ -33,3 +33,205 @@ nav a {
     color: #414943;
     text-decoration: none;
 }
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ECF6EE;
+}
+
+.heroImage {
+    position: relative;
+    width: 490px;
+    height: 612px;
+    flex-shrink: 0;
+}
+
+.heroImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-image-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+}
+
+.heroContent h1{
+    font-size: 60px;
+}
+
+h1{
+    color: #14422D;
+    padding: 20px;
+}
+
+p{
+    padding: 20px;
+    color: #14422D;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.hero-buttons a {
+    display: flex;
+    padding: 20px 25px;
+    background-color: #14422D;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.statistics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #DDEBE0;
+    margin: 20px;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 8px;
+}
+
+.statistic {
+    flex: 1;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.stat-icon {
+    font-size: 28px;
+    color: #14422D;
+}
+
+.statistic h2 {
+    font-size: 32px;
+    color: #14422D;
+    margin: 5px 0;
+}
+
+.statistic h3 {
+    font-size: 16px;
+    color: #14422D;
+    margin: 8px 0;
+}
+
+.statistic p {
+    font-size: 13px;
+    padding: 0;
+    margin: 8px 0;
+}
+
+body{
+    background-color: #F2FCF4;
+}
+
+
+
+.sourcing {
+    background-color: #ECF6EE;
+    padding: 50px 30px;
+}
+
+.sourcing-header {
+    max-width: 100%;
+    margin: 0 auto 30px;
+    text-align: left;
+}
+
+.sourcing-header p {
+    font-size: 10px;
+    padding: 0;
+    margin: 5px 0px;
+}
+
+.sourcing-header h2 {
+    font-size: 32px;
+    color: #14422D;
+    margin: 5px 0px;
+}
+
+.sourcing-cards {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.sourcing-card {
+    display: flex;
+    flex: 1;
+    background-color: #DDEBE0;
+    padding: 20px;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.sourcing-card h3 {
+    color: #14422D;
+    font-size: 20px;
+}
+
+.sourcing-card h4 {
+    color: #414943;
+    font-size: 15px;
+}
+
+.sourcing-card p {
+    padding: 0;
+    color: #414943;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.sourcing-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    border-radius: 6px;
+    margin-top: auto;
+    padding-top: 15px;
+}
+
+
+.price-and-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.price-and-button button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 101px;
+    height: 32px;
+    box-sizing: border-box;
+    background-color: #14422D;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.price-and-button button img {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+}
